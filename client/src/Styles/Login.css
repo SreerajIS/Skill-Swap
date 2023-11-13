@@ -1,0 +1,106 @@
+.background{
+  background-image: url('../Assets/construction-worker-during-home-renovation.jpg');
+  background-size: cover;
+}
+
+
+.container{
+  display: flex;
+  float: right;
+  flex-direction: column;
+  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 450px;
+  background: rgba(255, 255, 255, 0.5);
+  padding-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: 22px;
+}
+
+.text {
+  color: #3c009d;
+  font-size: 36px;
+  font-weight: 525;
+}
+
+.underline {
+  width: 45px;
+  height: 4.5px;
+  background: #3c009d;
+  border-radius: 6px;
+}
+
+.inputs{
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 360px;
+  height: 60px;
+  background: #eaeaea;
+  border-radius: 4.5px;
+}
+
+.input img {
+  margin: 0px 30px;
+  height: 18px;
+}
+
+
+.input input{
+  height: 38px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 18px;
+}
+
+.forgot-password {
+  padding: left 45px;
+  margin-top: 21px;
+  color: #797979;
+  font-size: 18px;
+}
+
+
+.forgot-password span{
+  color: #4c00b4;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  gap: 22px;
+  margin: 45px auto;
+  justify-content: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 45px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
